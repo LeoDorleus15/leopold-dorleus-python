@@ -2,7 +2,7 @@
 
 name = 'Leopold'
 age = 27
-height = "6.1"
+height = 6.1
 is_student = True
 
 
@@ -29,7 +29,7 @@ monthly_salary = minimum_wage * hours_worked
 print(f'As a full time employee, I make ${monthly_salary} a month')
 
 # Section 4
-item = 'iphone_18'  
+item = 'iphone_18'
 price = 1999
 quantity = 5
 total = price * quantity
@@ -37,9 +37,9 @@ print('======================')
 print('  Christmas Gift    ')
 print('======================')
 print('Item :  ',item)
-print('Price :$   ',price)
+print(f"Price : ${price:.2f}")
 print('Quantity :  ',quantity)
-print("Total :  $",total)
+print(f"Total : ${total:.2f}")
 print('======================')
 
 # Section 5
